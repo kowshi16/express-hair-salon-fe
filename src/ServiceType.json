@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "title": "Haircut",
+        "desc": "Signature cutting techniques, our highly skilled teams will create a bespoke look to suit your individuality, lifestyle, and hair texture.",
+        "imageLink": "/hair-cut.png",
+        "altText": "haircut",
+        "price": 25
+    },
+    {
+        "id": 2,
+        "title": "Hair Styling",
+        "desc": "Our hair stylists are some of the top hairdressers.Their diverse hair styling talents will make your first choice whether you have long or short hair.",
+        "imageLink": "/hair-styling.png",
+        "altText": "hair-styling",
+        "price": 50
+    },
+    {
+        "id": 3,
+        "title": "Makeup",
+        "desc": "We offer makeup application services for women in Coral Gables and Brickell with a sense of style. We wll apply your makeup to suit whatever the special occasion.",
+        "imageLink": "/makeup.png",
+        "altText": "makeup",
+        "price": 75
+    },
+    {
+        "id": 4,
+        "title": "Hair Coloring",
+        "desc": "Your colour expert will listen to your colour goals and needs whilst assessing your skin tone, eye colour and hair texture and make every occasion very precious.",
+        "imageLink": "/hair-styling.png",
+        "altText": "hair-coloring",
+        "price": 100
+    }
+]

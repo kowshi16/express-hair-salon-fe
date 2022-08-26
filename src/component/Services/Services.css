@@ -1,0 +1,36 @@
+.right_data_services {
+    background-image: url("./../../../public/hair-cut.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 553px;
+}
+
+.row-services{
+    --bs-gutter-x: 0rem;
+}
+
+.services-content{
+    /* position: absolute; */
+    justify-content: left;
+    margin-left: 50px;
+    margin-top: 20%;
+}
+
+.services-content h3 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 99%;
+    letter-spacing: -0.03em;
+}
+
+.col p{
+    width: 420px;
+}
+
+.reserve-btn{
+    width: 233px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,52 @@
+body{
+    background-color: #FAFAFA;
+}
+
+.content h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 99%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    margin-top: 93px;
+}
+
+.content p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    width: 69vw;
+    padding-left: 173px;
+    margin-top: 40px;
+}
+
+.content h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+    color: #B99A5F;
+}
+
+.content img {
+    margin-top: 30px;
+    margin-left: 48%;
+}
+
+.content h6 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 99%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #A5A5A5;
+    margin-top: 20px;
+    padding-left: 20px;
+}

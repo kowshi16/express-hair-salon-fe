@@ -1,0 +1,89 @@
+.right_data_booking {
+    background-image: url("./../../../public/hair-cut.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 553px;
+}
+
+.row-booking {
+    --bs-gutter-x: 0rem;
+}
+
+.form-container-booking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    margin-top: 40px;
+    /* height: 100vh; */
+}
+
+.form-booking {
+    width: 420px;
+    /* height: 550px; */
+    /* box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: white; */
+}
+
+/* .form-content-signup {
+    padding-left: 12%;
+    padding-right: 12%;
+} */
+
+.btn-submit {
+    background-color: #B99A5F;
+    border-color: #B99A5F;
+    width: 156px;
+    height: 45px;
+    text-align: center;
+}
+
+.btn-submit:hover {
+    background-color: #dab268;
+    border-color: #B99A5F;
+}
+
+.form-content-booking h3 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 99%;
+    letter-spacing: -0.03em;
+}
+
+.form-inner-content {
+    margin-top: 40px;
+}
+
+.booking-payment h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 99%;
+    letter-spacing: -0.03em;
+    margin-top: 30px;
+}
+
+.btn-submit {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: white;
+}
+
+.error-txt{
+    color: red;
+    font-size: 14px;
+}
+
+span{
+    color: black;
+}

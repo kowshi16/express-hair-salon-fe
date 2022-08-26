@@ -1,0 +1,30 @@
+Nav.Link {
+    color: black;
+}
+
+Button {
+    width: 163px;
+    height: 53px;
+}
+
+a.nav-link {
+    font-weight: 500;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.booknow-btn {
+    margin-left: 40px;
+}
+
+.logo-name {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 76%;
+    letter-spacing: -0.08em;
+    display: inline-block;
+    margin-top: 13px;
+    margin-left: 10px;
+}

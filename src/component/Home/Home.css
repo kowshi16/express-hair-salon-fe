@@ -1,0 +1,213 @@
+:root {
+    --primaryabt: hsla(334, 68%, 91%, 0.932);
+    --secondaryabt: hsla(328, 31%, 90%, 0.849);
+    --primary: hsla(0, 0%, 0%, 0);
+    --secondary: hsla(0, 0%, 3%, 0.847);
+}
+
+Container{
+    scroll-behavior: smooth;
+}
+
+.home-container {
+    height: 625px;
+    background: linear-gradient(135deg, var(--primary), var(--secondary)),
+        url("./../../../public/home-content.png");
+    position: relative;
+    background-size: cover;
+}
+
+/* .home-container::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+} */
+
+.overlay {
+    width: 40%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+}
+
+.overlay h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 99%;
+    letter-spacing: -0.03em;
+}
+
+.overlay p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.overlay Button {
+    margin-top: 10px;
+}
+
+.inner-content {
+    margin-top: 250px;
+}
+
+.services {
+    height: 625px;
+}
+
+.services h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 99%;
+    letter-spacing: -0.03em;
+    text-align: center;
+    margin-top: 66px;
+}
+
+.slider{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.service-card {
+    width: 25vw;
+    height: 60vh;
+    background-color: #FAFAFA;
+}
+
+.service-card img {
+    width: 339px;
+}
+
+.card-top h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 99%;
+    letter-spacing: -0.03em;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.card-buttom h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    margin-left: 30px;
+}
+
+.reservation{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #B99A5F;
+}
+
+.reservation:hover{
+    color: #e0ba71;
+}
+
+button.slick-arrow.slick-next {
+    background-image: url("./../../../public/right.png");
+    background-repeat: no-repeat;
+}
+
+button.slick-arrow.slick-next::before {
+    content: none;
+}
+
+button.slick-arrow.slick-prev {
+    background-image: url("./../../../public/left.png");
+    background-repeat: no-repeat;
+}
+
+button.slick-arrow.slick-prev::before {
+    content: none;
+}
+
+.cards-wrapper {
+    display: flex;
+    margin-left: 11%;
+    margin-top: 30px;
+}
+
+.about-us {
+    height: 425px;
+    background: linear-gradient(135deg, var(--primaryabt), var(--secondaryabt)),
+        url("./../../../public/home-content.png");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.overlay-about-us h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 99%;
+    letter-spacing: -0.03em;
+    margin-top: 70px;
+    position: absolute;
+    width: 191px;
+    height: 50px;
+    left: 625px;
+}
+
+.overlay-about-us p {
+    position: absolute;
+    width: 803px;
+    height: 218px;
+    left: 318px;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    margin-top: 13%;
+}
+
+.reserve {
+    position: absolute;
+    width: 803px;
+    left: 318px;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    margin-top: 23%;
+}
+
+.schedule{
+    text-decoration: none;
+    color: #B99A5F;
+}
+
+.schedule:hover{
+    color: #e0ba71;
+}
